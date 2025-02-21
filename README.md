@@ -22,7 +22,7 @@ Esso è costituito da 4 colonne di tipo stringa:
    
 2. **Analisi esplorativa dei dati (EDA)**:
    - **Conteggio degli articoli presenti per ogni categoria**: 
-   ![articoli_per_categoria](https://github.com/user-attachments/assets/42bb5885-5cfe-4851-aa90-694635c16332)
+   ![articoli_per_categoria](https://github.com/VirginioC/analisi-wikipedia/blob/main/articoli_per_categoria.png)
    - **Numero medio di parole per articolo**: il numero medio di parole nei 74574 articoli presenti nel dataset è 794.10.
    - **Lunghezza dell'articolo più lungo e di quello più corto per ciascuna categoria**: l'articolo più lungo è all'interno di *finance* (33479 parole) mentre l'articolo più corto è in *technology* (2 parole).
    - **Creazione di nuvole di parole rappresentative per ogni categoria, per identificare i termini più frequenti e rilevanti**.
@@ -49,7 +49,7 @@ Esso è costituito da 4 colonne di tipo stringa:
         - **Test Set Accuracy: 86.23 %**
         - **Test Set Confusion Matrix:**
 
-          ![confusion_matrix](https://github.com/user-attachments/assets/a9530645-bbfc-469a-98e9-d3f86dba2161)
+          ![matrice_di_confusione](https://github.com/VirginioC/analisi-wikipedia/blob/main/matrice_di_confusione.png)
 
    - In conclusione le prestazioni del modello possono essere considerate abbastanza soddisfacenti con un'accuracy piuttosto alta, nonostante l'overfitting significativo.
 
