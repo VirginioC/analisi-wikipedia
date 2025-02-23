@@ -1,7 +1,7 @@
 # Analisi e Classificazione dei Contenuti di Wikipedia
 
 ## Descrizione e obiettivi del progetto
-Il progetto, sviluppato durante il master in Data Science di Profession AI, consiste nell'effettuare un'analisi esplorativa dei contenuti di Wikipedia, suddivisi per categoria tematica, e sviluppare un sistema di classificazione automatica per categorizzare i nuovi articoli basandosi sul loro contenuto. Il progetto viene svolto utilizzando **Apache Spark** sulla piattaforma cloud **Databricks**.
+Il progetto, sviluppato durante il master in Data Science di ProfessionAI, consiste nell'effettuare un'analisi esplorativa dei contenuti di Wikipedia, suddivisi per categoria tematica, e sviluppare un sistema di classificazione automatica per categorizzare i nuovi articoli basandosi sul loro contenuto. Il progetto viene svolto utilizzando **Apache Spark** sulla piattaforma cloud **Databricks**.
 
 I risultati attesi sono quindi:
 - Ottimizzare l'organizzazione dei contenuti.
@@ -11,7 +11,7 @@ I risultati attesi sono quindi:
 ### Dataset
 Il dataset a disposizione, **`wikipedia.csv`**, è salvato su S3 e viene importato su Databricks come dataframe di Pandas per poi essere trasformato in un table di Spark. 
 
-Esso è costituito da 4 colonne di tipo stringa: 
+Esso contiene 153232 samples ed è costituito da 4 colonne di tipo stringa: 
    - **`title`**: titolo dell'articolo.
    - **`summary`**: introduzione breve dell'articolo.
    - **`documents`**: contenuto dell'articolo.
