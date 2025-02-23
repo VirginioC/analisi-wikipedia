@@ -32,7 +32,7 @@ Esso contiene 153232 samples ed è costituito da 4 colonne di tipo stringa:
    - Preprocessing del testo (*summary* e *documents*): conversione in lowercase, rimozione di punteggiatura e caratteri speciali, rimozione di numeri, tokenizzazione, rimozione stopwords e lemmatizzazione.
    - Label encoding: a ciascuna categoria tematica si assegna un'etichetta numerica (da 0 a 14).
    - Splitting del dataset in train set (80 %) e test set (20 %).
-   - Calcolo dei **class weights** da applicare per bilanciare le classi: valori da 0.62 (*transport*) a 19.72 (*politics*).
+   - Calcolo dei **class weights** da applicare per bilanciare le classi (basati sull'inverso delle frequenze): valori da 0.62 (*transport*) a 19.72 (*politics*).
    - Si sceglie di valutare:
       - **Logistic Regression**
       - **Complement Naive Bayes**
