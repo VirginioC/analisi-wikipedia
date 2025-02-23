@@ -23,7 +23,7 @@ Esso contiene 153232 samples ed è costituito da 4 colonne di tipo stringa:
 2. **Analisi esplorativa dei dati (EDA)**:
    - **Conteggio degli articoli presenti per ogni categoria**: 
    ![articoli_per_categoria](https://github.com/VirginioC/analisi-wikipedia/blob/main/articoli_per_categoria.png)
-   - **Numero medio di parole per articolo**: il numero medio di parole nei 74574 articoli presenti nel dataset è 794.10.
+   - **Numero medio di parole per articolo**: il numero medio di parole presenti negli articoli è 794.10.
    - **Lunghezza dell'articolo più lungo e di quello più corto per ciascuna categoria**: l'articolo più lungo è all'interno di *finance* (33479 parole) mentre l'articolo più corto è in *technology* (2 parole).
    - **Creazione di nuvole di parole rappresentative per ogni categoria, per identificare i termini più frequenti e rilevanti**.
      
